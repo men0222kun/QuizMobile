@@ -48,6 +48,7 @@ class _MyhomepageState extends State<Myhomepage> {
                              Icon(Icons.person,size: 42,color: Color.fromARGB(255, 101, 3, 80),),    
                   ],
                 ),
+                //====================================================================== Header
                 SizedBox(
                   height: 7,
                 ),
@@ -186,9 +187,24 @@ class _MyhomepageState extends State<Myhomepage> {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Icon(Icons.assignment,color: Colors.purple,),
-                    Icon(Icons.lightbulb_circle,color: Colors.purple,),
-                    Icon(Icons.call,color: Colors.purple,),
+                    Column(
+                      children: [
+                        Icon(Icons.assignment,color: Colors.purple,),
+                        Text("News"),
+                      ],
+                    ),
+                    Column(
+                      children: [
+                        Icon(Icons.lightbulb_circle,color: Colors.purple,),
+                        Text("Cirriculum"),
+                      ],
+                    ),
+                    Column(
+                      children: [
+                        Icon(Icons.call,color: Colors.purple,),
+                        Text("Contact"),
+                      ],
+                    ),
                   ],
                 ),
               ],

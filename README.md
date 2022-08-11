@@ -17,4 +17,4 @@ samples, guidance on mobile development, and a full API reference.
 
 # Screenshot
 
-![Screenshot1](images/imageQuiz.png)
+![screenshot](images/imageQuiz.png)
